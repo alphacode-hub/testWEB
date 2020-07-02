@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: hsla(311, 100%, 19%, 1);
+}
+span {
+    font-family: 'Roboto Slab', serif;
+}
+.header {
+    text-align: center;
+}
+.barra {
+    padding: 1px;
+    margin: 0 10px 10px 10px;
+    background: linear-gradient(to left, hsla(311, 100%, 19%, 1) , hsla(311, 100%, 62%, 1), hsla(311, 100%, 62%, 1), hsla(311, 100%, 19%, 1)); 
+}
+
+.contenido {
+    background: hsla(311, 100%, 19%, 1);
+    background: url('/static/787.jpg')no-repeat fixed center;
+    background-size: cover;
+    color: hsla(311, 100%, 19%, 1);
+    
+    text-align: center;
+    
+}
+
+.card {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid hsla(204, 100%, 50%, 0.58);
+    background-color: hsla(204, 100%, 50%, 0.58);
+    transition: 1s;
+}
+.card:hover{
+    border: 2px solid hsla(311, 100%, 62%, 1);
+    background-color: hsla(360, 100%, 100%, 0.51);
+}
+
+.info {
+    border: 2px solid hsla(311, 100%, 62%, 1);
+    border-radius: 20px;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    margin-left: -25%;
+}
+.info:hover {
+    background-color: hsla(204, 100%, 50%, 0.58);
+    border: 2px solid hsla(204, 100%, 50%, 0.58);
+    color: hsla(360, 100%, 100%, 1);
+}
+
+/**
+
+.circulo {
+  
+    width: 50px;
+    height: 50px;
+    background-color: hsla(0, 100%, 50%, 1);
+    border-radius: 50%;
+    transition: 2s ease;
+    border: 2px solid hsla(311, 100%, 22%, 1);
+    animation: latidos 1.5s infinite;
+}
+
+@keyframes latidos {
+    from { transform: none;
+    opacity: 0; }
+    50% { transform: scale(1.4); 
+    opacity: 0.3;}
+    to { transform: none;
+         opacity: 0; }
+}
+
+
+**/
+
+
+
+
+
+
+
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    span {
+        font-size: 10px;
+    }
+    .logo {
+        width: 25%;
+    }
+    object {
+        width: 20%;
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    span {
+        font-size: 10px;
+    }
+    .logo {
+        width: 25%;
+    }
+    object {
+        width: 20%;
+    }
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    span {
+        font-size: 10px;
+    }
+    .logo {
+        width: 25%;
+    }
+    object {
+        width: 20%;
+    }
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+    span {
+        font-size: 10px;
+    }
+    .logo {
+        width: 25%;
+    }
+    object {
+        width: 20%;
+    }
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+    span {
+        font-size: 10px;
+    }
+    .logo {
+        width: 25%;
+    }
+    object {
+        width: 20%;
+    }
+}
